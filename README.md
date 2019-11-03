@@ -1,5 +1,8 @@
 # PeopleOfColorCode.com
 
+# Install hugo
+brew install hugo
+
 # Run the site locally
 hugo server
 
