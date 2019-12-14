@@ -3,6 +3,9 @@
 # Install hugo
 brew install hugo
 
+# Init and update the theme's submodule
+git submodule update --init
+
 # Run the site locally
 hugo server
 
