@@ -41,23 +41,18 @@ params:
     - gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: Features
+  - title: About
     url: /
-  - title: Pricing
+  - title: Organizers
     url: /
-  - title: Dropdown
-    sublinks:
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-  - title: Log in
+  - title: Events
     url: /
-  - title: Sign up
+  - title: Values
     url: /
-    button: true
+  - title: Engage
+    url: /
+  - title: Contact
+    url: /
   section1:
     title: Great power comes
     subtitle: with great responsibility

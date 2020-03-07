@@ -4291,7 +4291,8 @@ body.has-navbar-fixed-bottom {
     transform: translateY(-5px) rotate(-45deg); }
 
 .navbar-menu {
-  display: none; }
+  display: none;
+  font-size: 1.2rem; }
 
 .navbar-item,
 .navbar-link {
