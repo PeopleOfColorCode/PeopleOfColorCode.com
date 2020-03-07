@@ -42,7 +42,7 @@ params:
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: About
-    url: /
+    url: "#about"
   - title: Organizers
     url: /
   - title: Events
