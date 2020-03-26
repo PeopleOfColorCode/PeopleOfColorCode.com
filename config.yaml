@@ -52,6 +52,21 @@ params:
     - title: Contact
       url: "#contact"
   section1:
+    id: about
+    title: You're here because you want the best
+    subtitle: And we know it
+    features:
+      - title: Powerful and unified interface
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+        # Icon (from /images/illustrations/icons/___.svg)
+        icon: laptop-globe
+      - title: Cross-device synchronisation
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+        icon: doc-sync
+      - title: Nomad system
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+        icon: mobile-feed
+  section2:
     id: organizers
     title: Great power comes
     subtitle: with great responsibility
@@ -71,27 +86,15 @@ params:
         text: This is some explanatory text that is on two rows
         url: /
         buttonText: Get started
-  section2:
-    title: You're here because you want the best
-    subtitle: And we know it
-    features:
-      - title: Powerful and unified interface
-        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-        # Icon (from /images/illustrations/icons/___.svg)
-        icon: laptop-globe
-      - title: Cross-device synchronisation
-        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-        icon: doc-sync
-      - title: Nomad system
-        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-        icon: mobile-feed
   section3:
+    id: events
     title: One platform
     subtitle: To rule them all
     image: illustrations/mockups/app-mockup.png
     buttonText: Get started
     buttonLink: "#"
   section4:
+    id: values
     title: Our Clients love us!
     subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
     clients:
