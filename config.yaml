@@ -28,11 +28,9 @@ params:
     image: poc-code-and-chill.jpg
     # Footer logos (from static/images/logos/clients/___.svg)
     clientlogos:
-      - systek
-      - tribe
-      - kromo
-      - infinite
-      - gutwork
+      - company: 8thlight
+        href: 8thlight.com
+    clientmessage: Thank you for your support!
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
     - title: About

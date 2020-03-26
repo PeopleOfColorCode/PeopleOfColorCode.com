@@ -6390,16 +6390,27 @@ Hero styles
     font-family: "Montserrat";
     color: #083d77; }
   .hero-body .subtitle {
-    font-family: "Open Sans", sans-serif; }
+    font-family: "Open Sans", sans-serif;
+    color: #66676b; }
   .hero-body .title.is-bold {
     font-weight: 700; }
   .hero-body .subtitle.is-muted {
-    color: #66676b; }
+    color: #999; }
   .hero-body .subtitle.is-bold {
     font-weight: 700; }
 
 .hero-foot img.partner-logo {
-  height: 70px; }
+  height: 200px; }
+
+.hero-foot .subtitle.is-muted {
+  font-family: "Open Sans", sans-serif;
+  color: #999; }
+
+.hero-foot .subtitle.is-right {
+  text-align: right; }
+
+.hero-foot .subtitle.is-bold {
+  font-weight: 700; }
 
 /* ==========================================================================
 Fresh Footer

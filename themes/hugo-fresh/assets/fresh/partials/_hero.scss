@@ -12,6 +12,7 @@ Hero styles
   }
   .subtitle {
     font-family: "Open Sans", sans-serif;
+    color: $medium-grey;
   }
   .title {
     &.is-bold {
@@ -20,7 +21,7 @@ Hero styles
   }
   .subtitle {
     &.is-muted {
-      color: $medium-grey;
+      color: $muted-grey;
     }
     &.is-bold {
       font-weight: 700;
@@ -30,6 +31,18 @@ Hero styles
 
 .hero-foot {
   img.partner-logo {
-    height: 70px;
+    height: 200px;
+  }
+  .subtitle {
+    &.is-muted {
+      font-family: "Open Sans", sans-serif;
+      color: $muted-grey;
+    }
+    &.is-right {
+      text-align: right;
+    }
+    &.is-bold {
+      font-weight: 700;
+    }
   }
 }
