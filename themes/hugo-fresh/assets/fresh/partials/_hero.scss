@@ -3,25 +3,33 @@ Hero styles
 ========================================================================== */
 
 .hero-body {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-    .title, .subtitle {
-        font-family: 'Open Sans', sans-serif;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+
+  .title {
+    font-family: "Montserrat";
+    color: $frost;
+  }
+  .subtitle {
+    font-family: "Open Sans", sans-serif;
+  }
+  .title {
+    &.is-bold {
+      font-weight: 700;
     }
-    .title {
-        &.is-bold {
-            font-weight: 700;
-        }
+  }
+  .subtitle {
+    &.is-muted {
+      color: $medium-grey;
     }
-    .subtitle {
-        &.is-muted {
-            color: $muted-grey;
-        }
+    &.is-bold {
+      font-weight: 700;
     }
+  }
 }
 
 .hero-foot {
-    img.partner-logo {
-        height: 70px;
-    }
+  img.partner-logo {
+    height: 70px;
+  }
 }
