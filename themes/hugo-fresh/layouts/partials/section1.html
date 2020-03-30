@@ -1,6 +1,7 @@
 {{- $section1 := .Site.Params.section1 }}
 {{- $id := index $section1 "id" }}
 {{- $title := index $section1 "title"}}
+{{- $image := index $section1 "image"}}
 {{- $features := index $section1 "features" }}
 <section id="{{ $id }}" class="section is-medium">
   <div class="container">
@@ -8,7 +9,13 @@
       <div class="column is-centered-tablet-portrait">
         <h1 class="title section-title is-bold">{{ $title }}</h1>
         <div class="divider"></div>
+        <div class="mt-20">
+          <figure class="image is-3by2">
+            <img src="{{ printf "/images/%s" $image | relURL }}" alt="Description">
+          </figure>
+        </div>
       </div>
+      
       <div class="column is-7 mt-60">
         {{- range $features }}
         <article class="media icon-box">
