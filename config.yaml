@@ -53,17 +53,14 @@ params:
       url: "#contact"
   section1:
     id: about
-    title: You're here because you want the best
+    title: About Us
     subtitle: And we know it
     features:
-      - title: Powerful and unified interface
+      - title: Our Mission
         text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
         # Icon (from /images/illustrations/icons/___.svg)
         icon: laptop-globe
-      - title: Cross-device synchronisation
-        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-        icon: doc-sync
-      - title: Nomad system
+      - title: Our Vision
         text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
         icon: mobile-feed
   section2:
