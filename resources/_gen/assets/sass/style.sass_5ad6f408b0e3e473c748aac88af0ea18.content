@@ -6408,7 +6408,9 @@ Hero styles
 
 .hero-foot .subtitle.is-right {
   text-align: right; }
-
+  @media screen and (max-width: 768px) {
+    .hero-foot .subtitle.is-right {
+      text-align: center; } }
 .hero-foot .subtitle.is-bold {
   font-weight: 700; }
 

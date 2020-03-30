@@ -3,11 +3,11 @@
 {{- $clientMessage := index $hero "clientmessage" }}
 <div class="hero-foot mb-20">
   <div class="container">
-    <div class="columns is-vcentered">
-      <div class="column is-6 is-offset-3">
+    <div class="columns is-vcentered mt-20">
+      <div class="column is-8">
         <p class="subtitle is-muted is-bold is-right">{{ $clientMessage }}</p>
       </div>
-      <div class="column is-6 ">
+      <div class="column is-4 is-one-half-mobile is-offset-one-quarter-mobile ">
         <ul>
           {{- range $clientLogos }}
           <li>

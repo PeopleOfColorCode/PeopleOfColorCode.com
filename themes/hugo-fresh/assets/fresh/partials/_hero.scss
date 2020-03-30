@@ -40,6 +40,10 @@ Hero styles
     }
     &.is-right {
       text-align: right;
+
+      @media screen and (max-width: 768px) {
+        text-align: center;
+      }
     }
     &.is-bold {
       font-weight: 700;
