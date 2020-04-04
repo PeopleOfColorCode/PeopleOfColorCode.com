@@ -2,19 +2,21 @@
 Main SCSS file / Fresh
 ========================================================================== */
 
-//Imports
-@import 'partials/colors';
-@import 'partials/navbar';
-@import 'partials/dropdowns';
-@import 'partials/sections';
-@import 'partials/hero';
-@import 'partials/footer';
-@import 'partials/buttons';
-@import 'partials/cards';
-@import 'partials/forms';
-@import 'partials/animations';
-@import 'partials/sidebar';
-@import 'partials/testimonials';
-@import 'partials/responsive';
-@import 'partials/utils';
+//Fonts
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
 
+//Imports
+@import "partials/colors";
+@import "partials/navbar";
+@import "partials/dropdowns";
+@import "partials/sections";
+@import "partials/hero";
+@import "partials/footer";
+@import "partials/buttons";
+@import "partials/cards";
+@import "partials/forms";
+@import "partials/animations";
+@import "partials/sidebar";
+@import "partials/testimonials";
+@import "partials/responsive";
+@import "partials/utils";
