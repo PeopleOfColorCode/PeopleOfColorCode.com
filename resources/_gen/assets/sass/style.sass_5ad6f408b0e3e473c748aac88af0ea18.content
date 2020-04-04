@@ -1,4 +1,5 @@
 /*! bulma.io v0.7.0 | MIT License | github.com/jgthms/bulma */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }
@@ -6226,9 +6227,9 @@ Navbar
     background: #fff;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12); }
     .navbar.is-fresh.is-fixed a {
-      color: #444F60; }
+      color: #444f60; }
       .navbar.is-fresh.is-fixed a:hover {
-        color: #4FC1EA; }
+        color: #4fc1ea; }
 
 #navbar-clone {
   position: fixed;
@@ -6317,7 +6318,7 @@ div.nav-item.is-drop {
       -o-transition: background .1s ease-out;
       transition: background .1s ease-out; }
       div.nav-item.is-drop .dropContain .dropOut ul li:hover {
-        background: #EFF4F7;
+        background: #eff4f7;
         cursor: pointer; }
     div.nav-item.is-drop .dropContain .dropOut ul {
       float: left;
@@ -6327,7 +6328,7 @@ div.nav-item.is-drop {
 Section Styles
 ========================================================================== */
 .section.section-light-grey {
-  background-color: #EFF4F7; }
+  background-color: #eff4f7; }
 
 .section.section-feature-grey {
   background-color: #fbfbfb; }
@@ -6376,7 +6377,7 @@ img.pushed-image {
     font-size: 1.2rem;
     font-weight: 600; }
   .media.icon-box .media-content .content p .icon-box-text {
-    color: #A9ABAC;
+    color: #a9abac;
     font-size: 1rem;
     font-weight: 400; }
 
@@ -6386,21 +6387,39 @@ Hero styles
 .hero-body {
   padding-top: 6rem;
   padding-bottom: 6rem; }
-  .hero-body .title, .hero-body .subtitle {
-    font-family: 'Open Sans', sans-serif; }
+  .hero-body .title {
+    font-family: "Montserrat";
+    color: #083d77; }
+  .hero-body .subtitle {
+    font-family: "Open Sans", sans-serif;
+    color: #66676b; }
   .hero-body .title.is-bold {
     font-weight: 700; }
   .hero-body .subtitle.is-muted {
     color: #999; }
+  .hero-body .subtitle.is-bold {
+    font-weight: 700; }
 
 .hero-foot img.partner-logo {
-  height: 70px; }
+  height: 200px; }
+
+.hero-foot .subtitle.is-muted {
+  font-family: "Open Sans", sans-serif;
+  color: #999; }
+
+.hero-foot .subtitle.is-right {
+  text-align: right; }
+  @media screen and (max-width: 768px) {
+    .hero-foot .subtitle.is-right {
+      text-align: center; } }
+.hero-foot .subtitle.is-bold {
+  font-weight: 700; }
 
 /* ==========================================================================
 Fresh Footer
 ========================================================================== */
 footer.footer-dark {
-  background: #444F60;
+  background: #444f60;
   color: #fff; }
   footer.footer-dark .columns {
     margin-top: 35px; }
@@ -6456,8 +6475,8 @@ Classes to change the feel of bulma buttons
 
 .button.primary-btn {
   outline: none;
-  border-color: #4FC1EA;
-  background-color: #4FC1EA;
+  border-color: #4fc1ea;
+  background-color: #4fc1ea;
   color: #fff;
   transition: all 0.5s; }
   .button.primary-btn:hover {
@@ -6466,12 +6485,12 @@ Classes to change the feel of bulma buttons
     box-shadow: 0 14px 26px -12px rgba(79, 193, 234, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(79, 193, 234, 0.2) !important;
     opacity: 0.8; }
   .button.primary-btn.btn-outlined {
-    border-color: #4FC1EA;
-    color: #4FC1EA;
+    border-color: #4fc1ea;
+    color: #4fc1ea;
     background-color: transparent; }
     .button.primary-btn.btn-outlined:hover {
       color: #fff;
-      background-color: #4FC1EA; }
+      background-color: #4fc1ea; }
 
 .button.secondary-btn {
   outline: none;
@@ -6526,7 +6545,7 @@ Cards and Card content styles
     padding-top: 25px;
     font-size: 1.2rem;
     font-weight: 600;
-    color: #444F60; }
+    color: #444f60; }
   .feature-card .card-icon img {
     height: 120px;
     margin-top: 20px; }
@@ -6558,7 +6577,7 @@ Cards and Card content styles
     .flex-card .navtab-content p {
       padding: 0 0.8rem 20px; }
   .flex-card .navigation-tabs.outlined-pills .tabs.tabs-header.primary {
-    background-color: #4FC1EA; }
+    background-color: #4fc1ea; }
   .flex-card .navigation-tabs.outlined-pills .tabs.tabs-header.secondary {
     background-color: #FFBA49; }
   .flex-card .navigation-tabs.outlined-pills .tabs.tabs-header.accent {
@@ -6586,13 +6605,13 @@ input.input {
   input.input.is-large {
     padding-bottom: 7px; }
   input.input:focus, input.input:active {
-    border-color: #EFF4F7; }
+    border-color: #eff4f7; }
   input.input.rounded {
     border-radius: 100px; }
   input.input.is-primary-focus:focus {
-    border-color: #4FC1EA; }
+    border-color: #4fc1ea; }
     input.input.is-primary-focus:focus ~ span.icon i {
-      color: #4FC1EA; }
+      color: #4fc1ea; }
   input.input.is-secondary-focus:focus {
     border-color: #FFBA49; }
     input.input.is-secondary-focus:focus ~ span.icon i {
@@ -6602,9 +6621,9 @@ input.input {
     input.input.is-accent-focus:focus ~ span.icon i {
       color: #00efb7; }
   input.input.is-bloody-focus:focus {
-    border-color: #FC354C; }
+    border-color: #fc354c; }
     input.input.is-bloody-focus:focus ~ span.icon i {
-      color: #FC354C; }
+      color: #fc354c; }
 
 .form-footer {
   width: 100%; }
@@ -6814,7 +6833,7 @@ Sidebar Styles
         border-bottom: 1px solid #303d52;
         font-size: .8rem; }
         .sidebar .inner .sidebar-menu li.have-children li a:hover {
-          color: #4FC1EA;
+          color: #4fc1ea;
           padding-left: 62px; }
       .sidebar .inner .sidebar-menu li.have-children span::after {
         position: absolute;
@@ -6909,7 +6928,7 @@ Testimonials Styles
       margin: 0;
       font-weight: 600;
       font-size: 1.2rem;
-      color: #444F60; }
+      color: #444f60; }
     .testimonial .author span {
       font-size: 0.8em;
       color: #fff;
@@ -7015,7 +7034,6 @@ button:focus, button:active {
   outline: none;
   opacity: 0.9;
   background: #FFBA49; }
-
 #backtotop a {
   outline: none;
   text-decoration: none;

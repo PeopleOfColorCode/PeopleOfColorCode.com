@@ -1,17 +1,22 @@
 {{- $hero        := .Site.Params.hero }}
 {{- $clientLogos := index $hero "clientlogos" }}
+{{- $clientMessage := index $hero "clientmessage" }}
 <div class="hero-foot mb-20">
   <div class="container">
-    <div class="tabs is-centered">
-      <ul>
-        {{- range $clientLogos }}
-        <li>
-          <a>
-            <img class="partner-logo" src="{{ printf "/images/logos/clients/%s.svg" . | relURL }}">
-          </a>
-        </li>
-        {{- end }}
-      </ul>
+    <div class="columns is-vcentered mt-20">
+      <div class="column is-8">
+        <p class="subtitle is-muted is-bold is-right">{{ $clientMessage }}</p>
+      </div>
+      <div class="column is-4 is-one-half-mobile is-offset-one-quarter-mobile ">
+        <ul>
+          {{- range $clientLogos }}
+          <li>
+            <a href="{{ .href }}" target="_blank">
+              <img class="partner-logo" src="{{ printf "/images/logos/clients/%s.svg" .company | relURL }}">
+            </a>
+          </li>
+          {{- end }}
+        </ul>
+      </div>
     </div>
   </div>
-</div>
