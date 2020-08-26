@@ -1,0 +1,25 @@
+{
+  "title": "Organizers",
+  "tiles": [
+    {
+      "name": "Byron Woodfork",
+      "url": "https://www.linkedin.com/in/byronwoodfork/",
+      "image": "woodfork.jpeg"
+    },
+    {
+      "name": "Nicole Carpenter",
+      "url": "https://www.linkedin.com/in/nicolecarpenterusa/",
+      "image": "carpenter.png"
+    },
+    {
+      "name": "Oscar Delgadillo",
+      "url": "https://www.linkedin.com/in/oscardel/",
+      "image": "delgadillo.jpeg"
+    },
+    {
+      "name": "Tiffani Elmore",
+      "url": "https://www.linkedin.com/in/tiffani-elmore/",
+      "image": "telmore.jpeg"
+    }
+  ]
+}
