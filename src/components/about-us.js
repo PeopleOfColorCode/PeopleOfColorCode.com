@@ -10,7 +10,7 @@ const AboutUs = () => {
       <div className="about-us-card-wrapper">
         <div className="about-us-cards">
           {features.map((feature, index) => (
-            <SimpleCard key={index} content={feature} />
+            <SimpleCard key={index} content={feature} style={"border"} />
           ))}
         </div>
       </div>
