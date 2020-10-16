@@ -28,7 +28,7 @@
     padding: 14px 16px;
     margin: 0 0.2em;
     text-decoration: none;
-    color: var(--grey-300);
+    color: #000000;
     transition: 0.4s;
 
     @media screen and (min-width: 1025px) and (max-width: 1333px) {
@@ -37,7 +37,7 @@
   }
 
   a:hover {
-    color: var(--blue-500);
+    border: solid black 8px;
   }
 }
 
