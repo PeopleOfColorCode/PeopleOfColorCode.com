@@ -43,7 +43,7 @@ const Header = ({ navigation }) => {
           {navigation.map((item, index) => (
             <h3>
               <a key={index} href={`#${item}`}>
-                {item}
+                {item.toUpperCase()}
               </a>
             </h3>
           ))}

@@ -1,6 +1,7 @@
 .header {
   display: grid;
   grid-template-areas: "logo nav";
+  border-bottom: solid 8px black;
 }
 
 .logo {
