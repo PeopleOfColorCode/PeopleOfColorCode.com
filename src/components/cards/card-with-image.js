@@ -25,6 +25,7 @@ const CardWithImage = ({ content: { image, name, url } }) => {
   return (
     <div className="card-with-image-wrapper">
       <div className="panel-left"></div>
+      <div className="panel-left-bottom"></div>
       <Img fluid={cardImage.childImageSharp.fluid} />
       <div className="card-with-image-content">
         <h3 className="card-with-image-header">{name}</h3>

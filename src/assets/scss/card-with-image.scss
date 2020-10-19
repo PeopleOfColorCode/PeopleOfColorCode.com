@@ -20,6 +20,23 @@
   top: 5px;
 }
 
+// Keep?
+// .panel-left-bottom {
+//   position: absolute;
+//   width: 28px;
+//   height: 30%;
+//   background-image: repeating-linear-gradient(
+//     transparent,
+//     transparent 10px,
+//     var(--black-500) 10px,
+//     var(--black-500) 20px
+//   );
+//   content: "";
+//   transform: skewY(136deg);
+//   left: -36px;
+//   bottom: -5px;
+// }
+
 .card-with-image-content {
   display: grid;
   grid-template-columns: 3fr 1fr;
