@@ -1,20 +1,23 @@
 .card-with-image-wrapper {
   background-color: #ffffff;
   margin: 1em;
-  box-shadow: (0 0 0.5rem var(--grey-300));
   position: relative;
+  border: solid 8px var(--black-500);
+  border-bottom: 0;
 }
 
 .panel-left {
   position: absolute;
   width: 20px;
-  height: 95%;
-  border: 8px solid #000;
+  height: 97%;
+  border: 8px solid var(--black-500);
   border-top-width: 12px;
+  border-right: 0;
+  border-bottom-right-radius: 2px;
   content: "";
   transform: skewY(136deg);
   left: -36px;
-  top: 17px;
+  top: 5px;
 }
 
 .card-with-image-content {
@@ -22,6 +25,7 @@
   grid-template-columns: 3fr 1fr;
   padding: 12%;
   background: var(--black-500);
+  height: max-content;
 }
 
 .card-with-image-header {
