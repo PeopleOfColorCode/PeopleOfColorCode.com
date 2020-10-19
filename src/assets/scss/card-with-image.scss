@@ -1,18 +1,31 @@
 .card-with-image-wrapper {
   background-color: #ffffff;
-  width: 300px;
   margin: 1em;
   box-shadow: (0 0 0.5rem var(--grey-300));
+  position: relative;
+}
+
+.panel-left {
+  position: absolute;
+  width: 20px;
+  height: 95%;
+  border: 8px solid #000;
+  border-top-width: 12px;
+  content: "";
+  transform: skewY(136deg);
+  left: -36px;
+  top: 17px;
 }
 
 .card-with-image-content {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  padding: 0.4em;
+  padding: 12%;
+  background: var(--black-500);
 }
 
 .card-with-image-header {
-  color: var(--blue-500);
+  color: #ffffff;
   font-family: "Mukta";
   font-size: 0.9em;
   align-self: end;
@@ -21,6 +34,7 @@
 
 .link-logo {
   background-image: url("../images/linkedin.png");
+  background-color: #ffffff;
   display: block;
   height: 30px;
   width: 30px;
