@@ -1,8 +1,6 @@
 import React from "react"
-import Img from "gatsby-image"
-import { useStaticQuery, graphql } from "gatsby"
 import EngageData from "../data/engage.json"
-import CardWithTextLink from "./cards/card-with-text-link"
+import ContentCardCubed from "./cards/content-card-cubed"
 
 const Engage = () => {
   const { title, tiles } = EngageData
@@ -13,7 +11,7 @@ const Engage = () => {
       <div className="engage-cards-wrapper">
         {/* <div className="engage-cards"> */}
         {tiles.map((tile, index) => (
-          <CardWithTextLink key={index} content={tile} />
+          <ContentCardCubed key={index} content={tile} border />
         ))}
         {/* </div> */}
       </div>
