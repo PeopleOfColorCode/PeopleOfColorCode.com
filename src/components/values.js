@@ -1,6 +1,6 @@
 import React from "react"
 import ValuesData from "../data/values.json"
-import ImageCardWithCenterText from "./cards/image-card-with-center-text"
+import IconCardWithText from "./cards/icon-card-with-text"
 
 const Values = () => {
   const { title, values } = ValuesData
@@ -10,11 +10,7 @@ const Values = () => {
       <h2 className="values-title">{title}</h2>
       <div className="values-image-cards-wrapper">
         {values.map((value, index) => (
-          <ImageCardWithCenterText
-            key={index}
-            content={value}
-            textLength={"short"}
-          />
+          <IconCardWithText key={index} content={value} left border />
         ))}
       </div>
     </div>
