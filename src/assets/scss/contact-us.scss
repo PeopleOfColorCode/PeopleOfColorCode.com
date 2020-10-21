@@ -1,52 +1,7 @@
 .contact-us-wrapper {
-  background-color: var(--green-300);
-  padding-left: 3em;
-  padding-right: 3em;
-  padding-top: 6em;
-  padding-bottom: 2em;
-  position: relative;
-  overflow: hidden;
-
-  @media only screen and (min-width: 960px) and (max-width: 1200px) {
-    padding-top: 8em;
-  }
-
-  @media only screen and (min-width: 1201px) and (max-width: 1400px) {
-    padding-top: 8em;
-  }
-
-  @media only screen and (min-width: 1401px) {
-    padding-top: 11em;
-    padding-bottom: 2em;
-  }
-}
-
-.contact-us-background {
-  top: -75%;
-  position: absolute;
-  transform: rotate(170deg);
-  background-color: #ffffff;
-  height: 70vh;
-  width: 150%;
-  left: -20%;
-
-  @media only screen and (max-width: 600px) {
-    height: 55vh;
-  }
-  @media only screen and (min-width: 600px) and (max-width: 768px) {
-    top: -74%;
-  }
-
-  @media only screen and (min-width: 769px) and (max-width: 1400px) {
-    top: -73%;
-  }
-
-  @media only screen and (min-width: 1300px) and (max-width: 1400px) {
-    top: -72%;
-  }
-
-  @media only screen and (min-width: 1401px) {
-    top: -60%;
+  margin: 3em 2em;
+  @media only screen and (max-width: 1024px) {
+    margin: 1em;
   }
 }
 
@@ -56,20 +11,15 @@
   margin-bottom: 1.2em;
 }
 
-.contact-us-title::after {
-  content: "";
-  position: absolute;
-  width: 7%;
-  height: 1px;
-  bottom: -50%;
-  left: 0;
-  border-bottom: 7px solid var(--yellow-300);
-}
-
 input,
 textarea {
-  border: none;
+  border: solid 8px var(--black-500);
   padding: 0.5em;
+  transition: 0.4s;
+  &:focus {
+    background-color: var(--yellow-300);
+    border: solid 4px var(--black-500);
+  }
 }
 
 .contact-form {
