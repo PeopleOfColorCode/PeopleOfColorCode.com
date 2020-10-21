@@ -11,12 +11,16 @@ const ContentCardCubed = ({
     })
   return (
     <div className={contentCardCubedClassnames(props)}>
-      <div className="card-with-text-wrapper">
-        <h3 className="card-with-text-title">{title}</h3>
-        <p className="card-with-text-text">{text}</p>
-        <a href={url} target={"_blank"} rel={"noreferrer"}>
-          <button className="card-with-text-button">{buttonText}</button>
-        </a>
+      <div className="content-card-cubed-wrapper">
+        <div className="content-card-cubed-panel-left"></div>
+        <div className="content-card-cubed-panel-bottom"></div>
+        <div className="content-card-cubed-content">
+          <h3 className="content-card-cubed-title">{title}</h3>
+          <p className="content-card-cubed-text">{text}</p>
+          <a href={url} target={"_blank"} rel={"noreferrer"}>
+            <button className="content-card-cubed-button">{buttonText}</button>
+          </a>
+        </div>
       </div>
     </div>
   )
