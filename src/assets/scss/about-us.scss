@@ -1,53 +1,33 @@
 .about-us-wrapper {
-  margin: 3em 2em;
-
-  @media only screen and (max-width: 1024px) {
-    margin: 3em 1em 0 1em;
-  }
+  padding: 2em;
+  border-bottom: solid 8px var(--black-500);
 }
 
 .about-us-card-wrapper {
-  margin: 2em;
-
+  margin: 3em;
   @media only screen and (max-width: 1070px) {
     grid-template-columns: none;
     margin: 0;
   }
 }
 
-.about-us-title {
-  position: relative;
-  margin-bottom: 1em;
-}
-
-.about-us-title::after {
-  content: "";
-  position: absolute;
-  width: 7%;
-  height: 1px;
-  bottom: -50%;
-  left: 0;
-  border-bottom: 7px solid var(--yellow-300);
-}
-
-.about-us-image Img {
-  @media only screen and (max-width: 870px) {
-    width: 50%;
-    height: 50%;
-    justify-content: center;
-  }
-}
-
 .about-us-cards {
   justify-content: end;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 2em;
-  grid-gap: 6em;
+  row-gap: 70px;
 
   @media only screen and (max-width: 1200px) {
     justify-self: center;
     padding-top: 0.5em;
     margin-left: 0;
+  }
+
+  @media only screen and (min-width: 800px) {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 70px;
+  }
+
+  @media only screen and (min-width: 1000px) {
+    margin: 3em;
   }
 }

@@ -1,14 +1,7 @@
 .landing-wrapper {
-  display: grid;
-  padding: 6em 3em 4em 6em;
-  height: 50vh;
+  position: relative;
+  height: 85vh;
   border-bottom: solid 8px black;
-
-  @media only screen and (max-width: 1024px) {
-    grid-template-columns: none;
-    grid-template-rows: 1fr;
-    margin: 3em 1em 0 1em;
-  }
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
@@ -26,50 +19,33 @@
   }
 }
 
+.landing-text {
+  position: absolute;
+  margin: 3em;
+  padding-top: 3em;
+  @media only screen and (max-width: 736px) {
+    font-size: 0.9em;
+  }
+
+  @media only screen and (min-width: 800px) {
+    margin: 6em 3em;
+  }
+
+  @media only screen and (min-width: 1500px) {
+    margin: 6em;
+  }
+}
+
 .landing-title {
   font-size: 2.2em;
   color: #fff;
-
-  @media only screen and (max-width: 736px) {
-    font-size: 1.7em;
-  }
-  @media only screen and (min-width: 737px) and (max-width: 1024px) {
-    font-size: 2em;
-  }
-
-  @media only screen and (max-width: 1024px) {
-    text-align: center;
-  }
-
-  @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-    font-size: 1.2em;
-  }
-
-  @media only screen and (min-width: 1201px) and (max-width: 1464px) {
-    font-size: 1.5em;
-  }
-  @media only screen and (min-width: 1465px) and (max-width: 1734px) {
-    font-size: 1.9em;
+  @media only screen and (max-width: 600px) {
+    padding-top: 3em;
   }
 }
 
 .landing-subtitle {
   font-size: 1.2em;
   color: var(--blue-500);
-
-  @media only screen and (max-width: 768px) {
-    font-size: 1em;
-  }
-
-  @media only screen and (max-width: 1024px) {
-    text-align: center;
-  }
-
-  @media only screen and (min-width: 737px) and (max-width: 1024px) {
-    font-size: 1.3em;
-  }
-
-  @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-    font-size: 1em;
-  }
+  font-weight: bold;
 }

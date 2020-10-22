@@ -30,7 +30,7 @@
     text-decoration: none;
     color: #000000;
     transition: 0.4s;
-
+    font-weight: normal;
     @media screen and (min-width: 1025px) and (max-width: 1333px) {
       padding: 14px 9px;
     }
@@ -60,7 +60,7 @@
 @media (max-width: 1024px) {
   .header {
     grid-template-areas: "logo burger" "nav nav";
-    background: var(--grey-100);
+    background: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     position: sticky;
     top: 0;

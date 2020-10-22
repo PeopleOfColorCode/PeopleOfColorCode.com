@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:wght@400;700;800&family=Open+Sans&family=Mukta:wght@600&display=swap");
+
 @import "./about-us.scss";
 @import "./header.scss";
 @import "./colors.scss";
@@ -15,7 +17,6 @@
 @import "./contact-us.scss";
 @import "./footer.scss";
 @import "./floaters.scss";
-@import url("https://fonts.googleapis.com/css?family=Montserrat:wght@400;700&family=Open+Sans&family=Mukta:wght@600&display=swap");
 
 body {
   margin: 0;
@@ -23,6 +24,7 @@ body {
   word-wrap: break-word;
   color: var(--grey-500);
   font-size: 2em;
+
   // background-image: linear-gradient(90deg, #ff4377, #0166ff);
   // background-size: 150% 150%;
 
@@ -232,6 +234,7 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   font-family: "Montserrat", sans-serif;
+  font-weight: bold;
   line-height: 1.1;
   color: var(--blue-500);
 

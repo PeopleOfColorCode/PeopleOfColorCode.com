@@ -20,6 +20,29 @@
   top: 5px;
 }
 
+.panel-bottom {
+  position: absolute;
+  top: calc(100% + -2px);
+  // bottom: 17px;
+  left: -21px;
+  overflow: hidden;
+  margin-top: 0;
+  width: calc(100% + 8px);
+  height: 20px;
+  border: 8px solid var(--black-500);
+  border-left: 0;
+  border-top: 0;
+  border-bottom-right-radius: 2px;
+  content: "";
+  transform: skewX(135deg);
+
+  @media only screen and (min-width: 600px) {
+    left: -22px;
+    top: calc(100% + -6px);
+    width: calc(100% + 10px);
+  }
+}
+
 // Keep?
 // .panel-left-bottom {
 //   position: absolute;

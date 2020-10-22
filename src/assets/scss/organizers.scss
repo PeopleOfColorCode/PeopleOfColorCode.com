@@ -1,22 +1,29 @@
 .organizers-wrapper {
-  margin: 3em 2em;
+  border-bottom: solid 8px black;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
 
-  @media only screen and (min-width: 768px) and (max-width: 1250px) {
-    min-height: 88vh;
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
   }
-
-  @media only screen and (min-width: 1592px) {
-    min-height: 70vh;
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
 
 .organizers-title {
   text-align: center;
-  position: relative;
-  margin-bottom: 1em;
+  padding: 1em;
 }
 
 .organizers-cards {
+  padding: 1em;
   display: grid;
   justify-items: center;
   grid-template-columns: repeat(4, 1fr);
