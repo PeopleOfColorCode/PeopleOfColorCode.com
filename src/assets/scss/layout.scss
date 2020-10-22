@@ -14,6 +14,7 @@
 @import "./content-card-cubed.scss";
 @import "./contact-us.scss";
 @import "./footer.scss";
+@import "./floaters.scss";
 @import url("https://fonts.googleapis.com/css?family=Montserrat:wght@400;700&family=Open+Sans&family=Mukta:wght@600&display=swap");
 
 body {
@@ -22,6 +23,8 @@ body {
   word-wrap: break-word;
   color: var(--grey-500);
   font-size: 2em;
+  // background-image: linear-gradient(90deg, #ff4377, #0166ff);
+  // background-size: 150% 150%;
 
   @media only screen and (max-width: 600px) {
     font-size: 1.5em;

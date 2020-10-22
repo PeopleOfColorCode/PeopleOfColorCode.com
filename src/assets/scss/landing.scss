@@ -9,10 +9,26 @@
     grid-template-rows: 1fr;
     margin: 3em 1em 0 1em;
   }
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .landing-title {
   font-size: 2.2em;
+  color: #fff;
 
   @media only screen and (max-width: 736px) {
     font-size: 1.7em;
@@ -39,6 +55,7 @@
 
 .landing-subtitle {
   font-size: 1.2em;
+  color: var(--blue-500);
 
   @media only screen and (max-width: 768px) {
     font-size: 1em;
