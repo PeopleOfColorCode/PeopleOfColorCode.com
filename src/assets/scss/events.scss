@@ -1,10 +1,11 @@
 .events-wrapper {
   margin-top: 4em;
-  margin-bottom: 4em;
-  margin-left: 2em;
+  padding-left: 2em;
+  border-bottom: solid 8px var(--black-500);
 
   @media only screen and (max-width: 1024px) {
-    margin-left: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
   }
 }
 
