@@ -11,9 +11,15 @@ const Footer = () => (
       </a>
     </div>
     <div>
-      Illustrations by {` `}
-      <a className="footer-link" href="https://usesmash.com/?ref=lapaninja">
-        Smash Illustrations
+      Gradient Animation by {` `}
+      <a className="footer-link" href="https://codepen.io/mohaiman">
+        Mohammad Abdul Mohaiman
+      </a>
+    </div>
+    <div>
+      Floating Animation by {` `}
+      <a className="footer-link" href="https://codepen.io/Lewitje">
+        Lewi Hussey
       </a>
     </div>
   </footer>
