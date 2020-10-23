@@ -2,6 +2,7 @@
   &__border {
     border: solid 8px var(--black-500);
   }
+  background-color: var(--yellow-300);
 }
 
 .content-card-cubed-panel-left {
@@ -47,6 +48,10 @@
   }
 }
 
+.content-card-cubed-content {
+  align-self: center;
+}
+
 .content-card-cubed-wrapper {
   display: grid;
   position: relative;
@@ -72,15 +77,13 @@
 }
 
 .content-card-cubed-button {
-  background-color: #ffffff;
-  color: var(--green-300);
+  color: #ffffff;
+  background-color: var(--green-300);
   border: 4px solid var(--yellow-300);
-  border-radius: 7px;
   padding: 0.3em;
   transition: 0.4s;
 
   &:hover {
-    color: var(--pink-300);
-    border: 4px solid var(--pink-300);
+    background-color: var(--pink-300);
   }
 }

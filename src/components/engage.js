@@ -8,8 +8,8 @@ const Engage = () => {
 
   return (
     <div id="Engage" className="engage-wrapper">
-      <Floaters />
       <h2 className="engage-title">{title}</h2>
+      <Floaters />
       <div className="engage-cards-wrapper">
         {tiles.map((tile, index) => (
           <ContentCardCubed key={index} content={tile} border />
