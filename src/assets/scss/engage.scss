@@ -1,11 +1,12 @@
 .engage-wrapper {
-  // margin: 3em 2em;
+  height: auto;
+  // padding-top: 2em;
   border-bottom: solid 8px var(--black-500);
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   @media only screen and (max-width: 1024px) {
-    padding: 2em;
+    padding-top: 2em;
   }
 }
 
@@ -23,21 +24,24 @@
 
 .engage-title {
   position: relative;
-  margin-bottom: 1em;
+  padding-top: 1em;
   text-align: center;
 }
 
 .engage-cards-wrapper {
   padding: 2em;
-  margin: 3em;
+  margin: 1em;
   display: grid;
   grid-template-rows: auto;
   row-gap: 70px;
   column-gap: 100px;
 
+  @media only screen and (max-width: 768px) {
+    padding: 1em 2em 2em 2em;
+  }
+
   @media only screen and (min-width: 55em) {
     grid-template-columns: 1fr 1fr;
-    padding: 1em;
   }
 
   @media only screen and (min-width: 84em) {
