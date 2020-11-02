@@ -5,11 +5,13 @@
 }
 
 .logo {
-  padding: 1em;
+  padding-left: 1em;
   grid-area: logo;
 }
 
 .navigation {
+  align-self: center;
+  margin-top: 1em;
   grid-area: nav;
   text-align: right;
   font-weight: 400;
