@@ -28,7 +28,7 @@ const ContactUs = () => {
         ...formData,
       }),
     })
-      .then(() => navigate(form.getAttribute("action")))
+      .then(() => form.reset(), navigate(form.getAttribute("action")))
       .catch(error => alert(error))
   }
   return (
