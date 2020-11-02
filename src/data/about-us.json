@@ -6,12 +6,12 @@
   "features": [
     {
       "subtitle": "Our Mission",
-      "text": "The mission of People of Color Code is to empower technologists of color by providing peer-led opportunities to develop skills and build relationships ",
+      "text": "The mission of People of Color Code is to create an environment for people of color to advance their software development and design skills through peer-led education, working on technical projects, collaborating with others, and networking",
       "icon": "laptop-globe"
     },
     {
       "subtitle": "Our Vision",
-      "text": "We envision the advancement of opportunities for technologists from marginalized communities",
+      "text": "We envision increased representation of people of color in the software industry, driving the advancement of technology",
       "icon": "mobile-feed"
     }
   ]

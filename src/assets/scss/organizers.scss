@@ -25,14 +25,26 @@
 .organizers-cards {
   padding: 1em;
   display: grid;
-  justify-items: center;
   grid-template-columns: repeat(4, 1fr);
 
   @media only screen and (max-width: 768px) {
-    grid-template-columns: 1fr;
+    // grid-template-columns: 1fr;
+    padding-left: 4em;
+    grid-template-columns: repeat(1, 370px);
   }
 
-  @media only screen and (min-width: 769px) {
-    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  // @media only screen and (min-width: 769px) {
+  //   grid-template-columns: repeat(4, minmax(310px, 1fr));
+  // }
+
+  @media only screen and (min-width: 769px) and (max-width: 1300px) {
+    grid-template-columns: repeat(2, minmax(200px, 500px));
   }
+
+  // @media only screen and (min-width: 769px) and (max-width: 1300px) {
+  //   // grid-template-columns: 310px 310px;
+  //   grid-template-columns: minmax(250px, 300px) 300px;
+  //   padding-left: 2em;
+  //   // grid-template-columns: repeat(2, 300px);
+  // }
 }
