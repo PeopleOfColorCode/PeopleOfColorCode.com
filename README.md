@@ -1,4 +1,5 @@
 # People of Color Code Website
+![Landing](https://user-images.githubusercontent.com/21062007/97844739-2d50ef00-1cb1-11eb-9ffc-0eb5f8047ee3.png)
 
 ## Required Technologies
 
