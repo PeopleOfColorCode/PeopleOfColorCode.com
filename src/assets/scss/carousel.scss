@@ -28,9 +28,10 @@
   display: flex;
   flex-direction: column;
   scroll-snap-align: start;
-  width: 100%;
+  margin: 0.3em;
   max-width: 33rem;
   flex: 0 0 auto;
+  border: solid 8px var(--black-500);
 }
 
 .next-arrow,

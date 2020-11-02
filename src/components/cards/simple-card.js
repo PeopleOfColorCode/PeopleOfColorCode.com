@@ -1,19 +1,9 @@
 import React from "react"
 
-const SimpleCard = ({ content: { subtitle, text }, textLength }) => (
-  <div>
-    <div
-      className={`simple-card-wrapper__${textLength}` || "simple-card-wrapper"}
-    >
-      <h3
-        className={
-          `simple-card-subtitle__${textLength}` || "simple-card-subtitle"
-        }
-      >
-        {subtitle}
-      </h3>
-      <p>{text}</p>
-    </div>
+const SimpleCard = ({ content: { subtitle, text }, style }) => (
+  <div className={`simple-card-wrapper__${style}`}>
+    <h3 className={`simple-card-subtitle__${style}`}>{subtitle}</h3>
+    <p className="simple-card-text">{text}</p>
   </div>
 )
 

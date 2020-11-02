@@ -1,5 +1,6 @@
 import PropTypes from "prop-types"
 import React, { useState, useEffect } from "react"
+import Logo from "../svg/logo-300.svg"
 
 const Header = ({ navigation }) => {
   const [isNavVisible, setNavVisibility] = useState(false)
@@ -36,14 +37,15 @@ const Header = ({ navigation }) => {
 
   return (
     <header className="header">
-      <h3 className="logo">LOGO</h3>
-
+      <div className="logo">
+        <Logo />
+      </div>
       {(!isSmallScreen || isNavVisible) && (
         <nav className="navigation">
           {navigation.map((item, index) => (
             <h3>
               <a key={index} href={`#${item}`}>
-                {item}
+                {item.toUpperCase()}
               </a>
             </h3>
           ))}

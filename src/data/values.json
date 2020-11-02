@@ -2,19 +2,19 @@
   "title": "Values",
   "values": [
     {
-      "subtitle": "Apples",
-      "image":"coworking-cut.png",
-      "text": "Found somethingmove I bite it tails stuff and things scratch the box the door is opening! How exciting OH!"
+      "subtitle": "Education",
+      "image":"screen.png",
+      "text": "Providing opportunities for people to further their knowledge in software development and design"
     },
     {
-      "subtitle": "Clouds",
-      "image":"chat-cut.png",
-      "text": "Found somethingmove I bite it tails stuff and things scratch the box the door is opening! How exciting OH!"
+      "subtitle": "Accessibility",
+      "image":"brain.png",
+      "text": "Creating an environment that is supportive and accessible to all skill levels from entry-level to expert"
     },
     {
-      "subtitle": "Rainbow",
-      "image":"finance-cut.png",
-      "text": "Found somethingmove I bite it tails stuff and things scratch the box the door is opening! How exciting OH!"
+      "subtitle": "Diversity",
+      "image":"support.png",
+      "text": "Fostering a safe space for people of color in tech"
     }
   ]
 }

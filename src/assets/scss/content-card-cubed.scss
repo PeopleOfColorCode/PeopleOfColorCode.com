@@ -1,0 +1,89 @@
+.content-card-cubed {
+  &__border {
+    border: solid 8px var(--black-500);
+  }
+  background-color: var(--yellow-300);
+}
+
+.content-card-cubed-panel-left {
+  position: absolute;
+  width: 40px;
+  height: calc(100% + 19px);
+
+  border: 8px solid var(--black-500);
+  border-top-width: 12px;
+  border-right: 0;
+  border-bottom-right-radius: 2px;
+  content: "";
+  transform: skewY(136deg);
+  left: -68px;
+  bottom: -43px;
+
+  @media only screen and (min-width: 600px) {
+    left: -70px;
+    bottom: -48px;
+    height: calc(100% + 29px);
+  }
+}
+
+.content-card-cubed-panel-bottom {
+  position: absolute;
+  top: calc(100% + 17px);
+  right: 4px;
+  overflow: hidden;
+  margin-top: 0;
+  width: calc(100% + 30px);
+  height: 40px;
+  border: 8px solid var(--black-500);
+  border-left: 0;
+  border-top: 0;
+  border-bottom-right-radius: 2px;
+  content: "";
+  transform: skewX(135deg);
+
+  @media only screen and (min-width: 600px) {
+    right: -1px;
+    top: calc(100% + 21px);
+    width: calc(100% + 37px);
+  }
+}
+
+.content-card-cubed-content {
+  align-self: center;
+}
+
+.content-card-cubed-wrapper {
+  display: grid;
+  position: relative;
+  text-align: center;
+  margin: 0.5em;
+  justify-items: center;
+
+  @media only screen and (min-width: 600px) {
+    height: 12em;
+  }
+
+  @media only screen and (min-width: 700px) {
+    height: 13em;
+  }
+
+  @media only screen and (min-width: 880px) {
+    height: 17em;
+  }
+
+  @media only screen and (min-width: 1050px) {
+    height: 16em;
+  }
+}
+
+.content-card-cubed-button {
+  color: #ffffff;
+  background-color: var(--green-300);
+  border: none;
+  padding: 0.3em;
+  transition: 0.4s;
+
+  &:hover {
+    background-color: var(--pink-300);
+  }
+}

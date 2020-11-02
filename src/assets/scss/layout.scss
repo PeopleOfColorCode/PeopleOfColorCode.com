@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:wght@400;700;800&family=Open+Sans&family=Mukta:wght@600&display=swap");
+
 @import "./about-us.scss";
 @import "./header.scss";
 @import "./colors.scss";
@@ -7,14 +9,14 @@
 @import "./card-with-image.scss";
 @import "./values";
 @import "./simple-card.scss";
-@import "./image-card-with-center-text.scss";
+@import "./icon-card-with-text.scss";
 @import "./carousel.scss";
 @import "./events.scss";
 @import "./engage.scss";
-@import "./card-with-text-link.scss";
+@import "./content-card-cubed.scss";
 @import "./contact-us.scss";
 @import "./footer.scss";
-@import url("https://fonts.googleapis.com/css?family=Montserrat:wght@400;700&family=Open+Sans&family=Mukta:wght@600&display=swap");
+@import "./floaters.scss";
 
 body {
   margin: 0;
@@ -229,6 +231,7 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   font-family: "Montserrat", sans-serif;
+  font-weight: bold;
   line-height: 1.1;
   color: var(--blue-500);
 
@@ -246,7 +249,7 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   font-family: "Montserrat", sans-serif;
-  color: var(--blue-500);
+  color: var(--black-500);
   font-weight: bold;
   text-rendering: optimizeLegibility;
   line-height: 1.1;
@@ -264,7 +267,7 @@ h3 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: var(--blue-500);
+  color: var(--black-500);
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;

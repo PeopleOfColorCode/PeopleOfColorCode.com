@@ -1,8 +1,8 @@
 .values-wrapper {
-  margin: 1em 2em 6em;
+  margin: 6em 2em 6em;
 
-  @media only screen and (max-width: 1024px) {
-    margin: 1em;
+  @media only screen and (max-width: 1200px) {
+    margin: 3em 1em;
   }
 }
 
@@ -12,16 +12,6 @@
   margin-bottom: 1em;
 }
 
-.values-title::after {
-  content: "";
-  position: absolute;
-  width: 6%;
-  height: 1px;
-  bottom: -50%;
-  left: 47%;
-  border-bottom: 7px solid var(--yellow-300);
-}
-
 .values-image-cards-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -29,11 +19,13 @@
   text-align: center;
   margin-top: 3em;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 870px) {
     grid-template-columns: none;
+    row-gap: 70px;
   }
 
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  @media only screen and (min-width: 870px) and (max-width: 1200px) {
     grid-template-columns: repeat(2, 1fr);
+    row-gap: 50px;
   }
 }

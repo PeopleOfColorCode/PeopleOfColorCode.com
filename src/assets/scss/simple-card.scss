@@ -1,7 +1,23 @@
-.simple-card-wrapper__short {
-  text-align: center;
+.simple-card-wrapper {
+  &__border {
+    border: solid 8px black;
+  }
+  &__short {
+    text-align: center;
+  }
 }
 
-.simple-card-subtitle__short {
-  text-align: center;
+.simple-card-subtitle {
+  &__border {
+    border-bottom: solid 8px black;
+    padding: 0.5em;
+  }
+
+  &__short {
+    text-align: center;
+  }
+}
+
+.simple-card-text {
+  padding: 0.5em;
 }

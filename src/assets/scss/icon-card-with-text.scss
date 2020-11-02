@@ -1,0 +1,16 @@
+.icon-card-with-text {
+  &__left {
+    text-align: left;
+  }
+
+  &__border {
+    border: solid 8px var(--black-500);
+    padding: 0.5em;
+  }
+}
+
+.icon-card-with-text-wrapper {
+  @media only screen and (max-width: 1024px) {
+    padding: 1em;
+  }
+}

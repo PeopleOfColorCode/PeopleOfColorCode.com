@@ -1,14 +1,17 @@
 .header {
   display: grid;
   grid-template-areas: "logo nav";
+  border-bottom: solid 8px black;
 }
 
 .logo {
-  padding: 1em;
+  padding-left: 1em;
   grid-area: logo;
 }
 
 .navigation {
+  align-self: center;
+  margin-top: 1em;
   grid-area: nav;
   text-align: right;
   font-weight: 400;
@@ -27,16 +30,16 @@
     padding: 14px 16px;
     margin: 0 0.2em;
     text-decoration: none;
-    color: var(--grey-300);
+    color: #000000;
     transition: 0.4s;
-
+    font-weight: normal;
     @media screen and (min-width: 1025px) and (max-width: 1333px) {
       padding: 14px 9px;
     }
   }
 
   a:hover {
-    color: var(--blue-500);
+    border-bottom: solid black 8px;
   }
 }
 
@@ -59,7 +62,7 @@
 @media (max-width: 1024px) {
   .header {
     grid-template-areas: "logo burger" "nav nav";
-    background: var(--grey-100);
+    background: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     position: sticky;
     top: 0;
