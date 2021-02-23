@@ -1,6 +1,4 @@
 import React from "react"
-import Img from "gatsby-image"
-import { useStaticQuery, graphql } from "gatsby"
 import LandingData from "../data/landing.json"
 import Floaters from "./floaters"
 

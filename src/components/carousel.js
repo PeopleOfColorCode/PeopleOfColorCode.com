@@ -27,6 +27,20 @@ const Carousel = props => {
     }
   }
 
+  const handleKeyDown = e => {
+    if (e.keyCode === 26) {
+      this.focus()
+      return setLeft(Math.max(left - elementWidth, 0))
+    }
+    if (e.keyCode === 27) {
+      this.focus()
+      const fromRight = container.lastChild.getBoundingClientRect().right
+      if (fromRight > window.innerWidth) {
+        return setLeft(left + elementWidth)
+      }
+    }
+  }
+
   const handlers = useSwipeable({
     preventDefaultTouchmoveEvent: true,
     trackMouse: true,
@@ -53,10 +67,12 @@ const Carousel = props => {
             <div
               className="mdi previous-arrow"
               onClick={e => handleSwipe(e, -1)}
+              onKeyDown={e => handleKeyDown(e)}
             ></div>
             <div
               className="mdi next-arrow"
               onClick={e => handleSwipe(e, 1)}
+              onKeyDown={e => handleKeyDown(e)}
             ></div>
           </div>
         </div>

@@ -45,11 +45,20 @@ const ContactUs = () => {
         onSubmit={handleSubmit}
       >
         {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-        <input type="hidden" name="form-name" value="contact" />
+        <input
+          type="hidden"
+          name="form-name"
+          aria-label="Contact Form"
+          value="contact"
+        />
         <p hidden>
           <label>
             Don’t fill this out:{" "}
-            <input name="bot-field" onChange={handleChange} />
+            <input
+              name="bot-field"
+              aria-label="Contact Form"
+              onChange={handleChange}
+            />
           </label>
         </p>
 
@@ -57,6 +66,7 @@ const ContactUs = () => {
           className="contact-input-name"
           type="text"
           name="name"
+          aria-label="Your Name"
           onChange={handleChange}
           placeholder={enterName}
         />
@@ -65,6 +75,7 @@ const ContactUs = () => {
           className="contact-input-email"
           type="email"
           name="email"
+          aria-label="Your Email"
           onChange={handleChange}
           placeholder={enterEmail}
         />
@@ -72,6 +83,7 @@ const ContactUs = () => {
         <textarea
           className="contact-textarea"
           name="message"
+          aria-label="Your Message"
           onChange={handleChange}
           placeholder={enterMessage}
         />

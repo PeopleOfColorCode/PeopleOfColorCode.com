@@ -9,8 +9,10 @@
 
 .simple-card-subtitle {
   &__border {
-    border-bottom: solid 8px black;
-    padding: 0.5em;
+    h3 {
+      border-bottom: solid 8px black;
+      padding: 0.5em;
+    }
   }
 
   &__short {
