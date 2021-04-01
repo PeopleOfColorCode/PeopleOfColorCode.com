@@ -1,12 +1,9 @@
-.events-wrapper {
-  margin-top: 4em;
-  padding-left: 2em;
+.events {
   border-bottom: solid 8px var(--black-500);
+}
 
-  @media only screen and (max-width: 1024px) {
-    padding-left: 1em;
-    padding-bottom: 1em;
-  }
+.events-wrapper {
+  @extend .o-container;
 }
 
 .events-title {

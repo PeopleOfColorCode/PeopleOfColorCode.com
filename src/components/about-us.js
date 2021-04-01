@@ -8,11 +8,9 @@ const AboutUs = () => {
   return (
     <div id="About" className="about-us-wrapper">
       <div className="about-us-card-wrapper">
-        <div className="about-us-cards">
-          {features.map((feature, index) => (
-            <SimpleCard key={index} content={feature} border subtitleBorder />
-          ))}
-        </div>
+        {features.map((feature, index) => (
+          <SimpleCard key={index} content={feature} border subtitleBorder />
+        ))}
       </div>
     </div>
   )

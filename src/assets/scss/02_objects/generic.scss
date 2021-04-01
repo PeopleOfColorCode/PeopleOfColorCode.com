@@ -1,13 +1,17 @@
+html {
+  font-size: 100%;
+}
+
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
   word-wrap: break-word;
   color: var(--grey-500);
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.65;
 
-  @media only screen and (max-width: 600px) {
-    font-size: 1.5rem;
+  @media #{$medium-up} {
+    font-size: $font-size-18;
   }
 }
 article,
@@ -234,9 +238,10 @@ h2 {
   font-weight: bold;
   text-rendering: optimizeLegibility;
   line-height: 1.1;
+  font-size: $font-size-34;
 
-  @media only screen and (max-width: 600px) {
-    font-size: 1.3em;
+  @media #{$medium-up} {
+    font-size: $font-size-48;
   }
 }
 h3 {
@@ -594,9 +599,4 @@ pre tt:after {
 }
 html {
   scroll-behavior: smooth;
-}
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 50%;
-  }
 }

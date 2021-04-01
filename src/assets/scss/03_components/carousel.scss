@@ -10,7 +10,6 @@
 .inner-scroller-wrapper {
   display: flex;
   transition: transform 300ms;
-  padding-left: calc(35vw - 39rem);
   scroll-padding-left: calc(50vw - 34rem);
 }
 .outer-scroller-wrapper .arrows {

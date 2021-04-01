@@ -1,9 +1,8 @@
 .values-wrapper {
-  margin: 6em 2em 6em;
+  @extend .o-container;
 
-  @media only screen and (max-width: 1200px) {
-    margin: 3em 1em;
-  }
+  margin-top: $spacing-xxx-large;
+  margin-bottom: $spacing-xxx-large;
 }
 
 .values-title {
@@ -14,18 +13,16 @@
 
 .values-image-cards-wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 50px;
+  grid-template-columns: 1fr;
+  grid-gap: $spacing-medium;
   text-align: center;
   margin-top: 3em;
-
-  @media only screen and (max-width: 870px) {
-    grid-template-columns: none;
-    row-gap: 70px;
+  
+  @media #{$large} {
+    grid-template-columns: repeat(3, 1fr);
   }
 
-  @media only screen and (min-width: 870px) and (max-width: 1200px) {
-    grid-template-columns: repeat(2, 1fr);
-    row-gap: 50px;
+  .icon-card-with-text {
+    text-align: center;
   }
 }

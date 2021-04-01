@@ -1,29 +1,23 @@
 .about-us-wrapper {
-  padding: 2em;
+  padding-top: $spacing-large;
+  padding-bottom: $spacing-large;
   border-bottom: solid 8px var(--black-500);
 }
 
 .about-us-card-wrapper {
-  margin: 3em;
-  @media only screen and (max-width: 1070px) {
-    grid-template-columns: none;
-    margin: 0;
-  }
-}
+  @extend .o-container;
 
-.about-us-cards {
   justify-content: end;
   display: grid;
-  row-gap: 70px;
+  row-gap: $spacing-medium;
 
   @media only screen and (max-width: 1200px) {
     justify-self: center;
     padding-top: 0.5em;
-    margin-left: 0;
   }
 
   @media only screen and (min-width: 800px) {
     grid-template-columns: 1fr 1fr;
-    column-gap: 70px;
+    column-gap: $spacing-large;
   }
 }
