@@ -8,7 +8,7 @@ const CardWithImage = ({ content: { image, name, url } }) => {
       allFile {
         nodes {
           childImageSharp {
-            fluid(maxWidth: 700, maxHeight: 650) {
+            fluid(maxWidth: 350, maxHeight: 350) {
               originalName
               ...GatsbyImageSharpFluid
             }

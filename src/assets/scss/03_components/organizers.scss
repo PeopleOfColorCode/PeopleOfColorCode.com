@@ -21,7 +21,7 @@
 
 .organizers-title {
   text-align: center;
-  padding: 1em;
+  padding: .5em;
 }
 
 .organizers-cards {
@@ -31,6 +31,7 @@
   justify-content: center;
 
   @media only screen and (max-width: 768px) {
+    padding: 0;
     grid-template-columns: repeat(1, 370px);
   }
 
