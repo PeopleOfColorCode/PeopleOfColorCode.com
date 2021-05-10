@@ -19,10 +19,10 @@
   left: -64px;
   bottom: -40px;
 
-  @media only screen and (min-width: 600px) {
-    left: -65px;
-    bottom: -42px;
-    height: calc(100% + 16px);
+  @media only screen and (max-width: 600px) {
+    width: 0;
+    height: 0;
+    border: none;
   }
 }
 
@@ -41,15 +41,14 @@
   content: "";
   transform: skewX(135deg);
 
-  @media #{$medium-up} {
-    right: 7px;
-    top: calc(100% + 17px);
-    width: calc(100% + 26px);
+  @media only screen and (max-width: 600px) {
+    width: 0;
+    height: 0;
+    border: none;
   }
 }
 
 .content-card-cubed-content {
-  font-size: $font-size-20;
   align-self: center;
 }
 
@@ -57,7 +56,7 @@
   display: grid;
   position: relative;
   text-align: center;
-  margin: 0.5em;
+  margin: 1em;
   justify-items: center;
 
   @media only screen and (min-width: 600px) {
