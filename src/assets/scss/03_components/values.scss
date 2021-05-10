@@ -1,0 +1,29 @@
+.values-wrapper {
+  @extend .o-container;
+
+  margin-top: $spacing-xxx-large;
+  margin-bottom: $spacing-xxx-large;
+}
+
+.values-title {
+  text-align: center;
+  position: relative;
+  margin-bottom: 1em;
+}
+
+.values-image-cards-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: $spacing-medium;
+  text-align: center;
+  margin-top: 3em;
+  
+  @media #{$large} {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .icon-card-with-text {
+    font-size: $font-size-20;
+    text-align: center;
+  }
+}

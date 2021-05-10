@@ -8,7 +8,7 @@
 .content-card-cubed-panel-left {
   position: absolute;
   width: 40px;
-  height: calc(100% + 19px);
+  height: calc(100% + 13px);
 
   border: 8px solid var(--black-500);
   border-top-width: 12px;
@@ -16,23 +16,23 @@
   border-bottom-right-radius: 2px;
   content: "";
   transform: skewY(136deg);
-  left: -68px;
-  bottom: -43px;
+  left: -64px;
+  bottom: -40px;
 
   @media only screen and (min-width: 600px) {
-    left: -70px;
-    bottom: -48px;
-    height: calc(100% + 29px);
+    left: -65px;
+    bottom: -42px;
+    height: calc(100% + 16px);
   }
 }
 
 .content-card-cubed-panel-bottom {
   position: absolute;
-  top: calc(100% + 17px);
-  right: 4px;
+  top: calc(100% + 16px);
+  right: 8px;
+  width: calc(100% + 30px);
   overflow: hidden;
   margin-top: 0;
-  width: calc(100% + 30px);
   height: 40px;
   border: 8px solid var(--black-500);
   border-left: 0;
@@ -41,14 +41,15 @@
   content: "";
   transform: skewX(135deg);
 
-  @media only screen and (min-width: 600px) {
-    right: -1px;
-    top: calc(100% + 21px);
-    width: calc(100% + 37px);
+  @media #{$medium-up} {
+    right: 7px;
+    top: calc(100% + 17px);
+    width: calc(100% + 26px);
   }
 }
 
 .content-card-cubed-content {
+  font-size: $font-size-20;
   align-self: center;
 }
 
@@ -80,7 +81,7 @@
   color: #ffffff;
   background-color: var(--green-300);
   border: none;
-  padding: 0.3em;
+  padding: $spacing-x-small $spacing-small;
   transition: 0.4s;
 
   &:hover {

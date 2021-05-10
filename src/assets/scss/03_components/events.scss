@@ -1,0 +1,12 @@
+.events {
+  border-bottom: solid 8px var(--black-500);
+}
+
+.events-wrapper {
+  @extend .o-container;
+}
+
+.events-title {
+  position: relative;
+  margin-bottom: 1em;
+}

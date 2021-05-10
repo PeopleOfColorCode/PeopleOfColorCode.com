@@ -3,7 +3,6 @@
   margin: 1em;
   position: relative;
   border: solid 8px var(--black-500);
-  // border-bottom: 0;
 }
 
 .panel-left {
@@ -38,7 +37,6 @@
 
   @media only screen and (min-width: 600px) {
     left: -22px;
-    // top: calc(100% + 7px);
     width: calc(100% + 9px);
   }
 }
@@ -46,10 +44,11 @@
 .card-with-image-content {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  padding: 12%;
+  padding: 14%;
   background: var(--black-500);
   height: max-content;
   align-self: center;
+  font-size: $font-size-24;
 }
 
 .card-with-image-header {

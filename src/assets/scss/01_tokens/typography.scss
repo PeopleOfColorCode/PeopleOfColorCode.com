@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:wght@400;700;800&family=Open+Sans&family=Mukta:wght@600&display=swap");
+
+@function rem-calc($size) {
+  $remSize: $size / 16px;
+  @return clamp(1rem, 9vw, #{$remSize}rem);
+}
+
+@mixin font-size($size) {
+  font-size: $size; //Fallback in px
+  font-size: rem-calc($size);
+}
+
+$font-weight-light: 200;
+$font-weight-normal: 400;
+$font-weight-bold: 600;
+$font-weight-black: 800;
+
+$font-size-xlarge: 2.03rem;
+$font-size-large: 1.8rem;
+$font-size-medium: 1.6rem;
+$font-size-normal: 1rem;
+$font-size-small: 0.89rem;
+$font-size-x-small: 0.79rem;
