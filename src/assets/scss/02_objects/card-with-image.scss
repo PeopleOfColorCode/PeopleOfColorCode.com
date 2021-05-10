@@ -3,6 +3,10 @@
   margin: 1em;
   position: relative;
   border: solid 8px var(--black-500);
+
+  @media only screen and (max-width: 600px) {
+    margin: 2em 4em;
+  }
 }
 
 .panel-left {

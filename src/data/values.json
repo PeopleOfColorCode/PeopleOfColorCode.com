@@ -4,17 +4,17 @@
     {
       "subtitle": "Education",
       "image":"screen.png",
-      "text": "Providing opportunities for people to further their knowledge in software development and design"
+      "text": "Providing peer-led, development opportunities to further knowledge in software development and design"
     },
     {
-      "subtitle": "Accessibility",
+      "subtitle": "Creating Opportunities",
       "image":"brain.png",
-      "text": "Creating an environment that is supportive and accessible to all skill levels from entry-level to expert"
+      "text": "Creating opportunities for each other by networking, building resources, and increasing visibility of our community"
     },
     {
-      "subtitle": "Diversity",
+      "subtitle": "Safe Spaces",
       "image":"support.png",
-      "text": "Fostering a safe space for people of color in tech"
+      "text": "Creating a supportive environment that engages people of color at all skill levels from entry-level to expert"
     }
   ]
 }
