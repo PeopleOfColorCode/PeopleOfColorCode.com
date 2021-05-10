@@ -12,8 +12,6 @@ const ContentCardCubed = ({
   return (
     <div className={contentCardCubedClassnames(props)}>
       <div className="content-card-cubed-wrapper">
-        <div className="content-card-cubed-panel-left"></div>
-        <div className="content-card-cubed-panel-bottom"></div>
         <div className="content-card-cubed-content">
           <h3 className="content-card-cubed-title">{title}</h3>
           <p className="content-card-cubed-text">{text}</p>

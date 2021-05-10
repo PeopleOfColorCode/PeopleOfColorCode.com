@@ -36,8 +36,8 @@
   row-gap: 70px;
   column-gap: 100px;
 
-  @media only screen and (max-width: 768px) {
-    padding: 1em 1em 2em 3em;
+  @media only screen and (max-width: 600px) {
+    row-gap: 1em;
   }
 
   @media only screen and (min-width: 55em) {
