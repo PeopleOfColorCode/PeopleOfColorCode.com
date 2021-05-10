@@ -15,7 +15,7 @@
 
     ```shell
     # Clone in a directory of your choice
-    git clone https://github.com/grace000/people-of-color-code.git
+    git clone https://github.com/PeopleOfColorCode/PeopleOfColorCode.com.git
     ```
 
 1.  **Start it up.**
